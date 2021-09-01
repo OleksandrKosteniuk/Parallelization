@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T03:32:13.629Z",
+        "line": 3,
+        "name": "User opens Korrespondent Hope Page",
+        "description": "",
+        "id": "open-korrespondent-hope-page-for-parallel-test-execution;user-opens-korrespondent-hope-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9777000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open \u0027https://korrespondent.net/\u0027 Home Page and verify header is \u0027Новости - последние новости Украины и мира сегодня - Korrespondent.net\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027https://korrespondent.net/\u0027",
+                  "offset": 7
+                },
+                {
+                  "val": "\u0027Новости - последние новости Украины и мира сегодня - Korrespondent.net\u0027",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinition.OpenKorrespondentHomePage.openPageVerifyHeader(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Parallel"
+          }
+        ]
+      }
+    ],
+    "name": "Open Korrespondent Hope Page for parallel test execution",
+    "description": "",
+    "id": "open-korrespondent-hope-page-for-parallel-test-execution",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OpenKorrespondentHomePage.feature",
+    "tags": [
+      {
+        "name": "@Parallel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-01T03:32:23.490Z",
+        "line": 3,
+        "name": "User opens Meteo Hope Page",
+        "description": "",
+        "id": "open-meteo-hope-page-for-parallel-test-execution;user-opens-meteo-hope-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6115000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open \u0027https://meteo.ua/\u0027 Home Page and verify header is \u0027METEO.UA™: Погода в Украине, прогноз погоды на неделю. Погода на сегодня, завтра и неделю в Украине\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027https://meteo.ua/\u0027",
+                  "offset": 7
+                },
+                {
+                  "val": "\u0027METEO.UA™: Погода в Украине, прогноз погоды на неделю. Погода на сегодня, завтра и неделю в Украине\u0027",
+                  "offset": 58
+                }
+              ],
+              "location": "stepDefinition.OpenKorrespondentHomePage.openPageVerifyHeader(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Parallel"
+          }
+        ]
+      }
+    ],
+    "name": "Open Meteo Hope Page for parallel test execution",
+    "description": "",
+    "id": "open-meteo-hope-page-for-parallel-test-execution",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OpenMeteoHomePage.feature",
+    "tags": [
+      {
+        "name": "@Parallel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
